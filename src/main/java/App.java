@@ -47,7 +47,7 @@ public class App {
             return new ModelAndView(model,"sightingForm.hbs");
         },new HandlebarsTemplateEngine());
 
-        post("/sightingForm",(request, response) -> {
+        post("/sighting/new",(request, response) -> {
             Map<String, Object> model = new HashMap<>();
             String rangerName = request.queryParams("rangerName").trim();
             String animalName = request.queryParams("animalName").trim();
