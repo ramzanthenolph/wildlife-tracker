@@ -1,0 +1,54 @@
+.jumbotron {
+    border-radius: 0px;
+}
+
+.jumbotron h1{
+    margin-top: 30px;
+}
+
+.jumbotron p{
+    margin-bottom: 30px;
+}
+//index background
+
+.index-jumbotron {
+    background: url('/images/kenya.jpg');
+    background-position-y: 72%;
+    background-size: cover;
+    background-repeat: none;
+    color: #0B9444;
+}
+
+//endangered and regular background
+
+.animal-jumbotron {
+    background: url('/images/kenya.jpg');
+    background-position-y: 72%;
+    background-size: cover;
+    background-repeat: none;
+    text-align: right;
+    color: #0B9444;
+}
+
+//sightings page
+.list-group-item {
+    color: navy;
+}
+
+.sighting-jumbotron {
+    background: url('/images/binoculars.jpg');
+    background-position-y: 72%;
+    background-size: cover;
+    background-repeat: none;
+    color: #0B9444;
+}
+
+//success page
+
+.success-jumbotron {
+    background: url('../images/tree.jpg');
+    background-position-y: 60%;
+    background-size: cover;
+    background-repeat: none;
+    color: white;
+}
