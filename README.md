@@ -17,10 +17,10 @@ The rangers can submit as many times as they want depending on how many they hav
 Get to the link below and test the app. Database creation will is as below;
 **PSQL**
 * CREATE DATABASE wildlife_tracker;
-*CREATE TABLE rangers(id serial PRIMARY KEY, name varchar);
-*CREATE TABLE animals(id serial PRIMARY KEY, name varchar, health varchar, age varchar, type varchar);
-*CREATE TABLE sightings(id serial PRIMARY KEY, animalname varchar, location varchar, timestamp timestamp, rangerid int);
-*CREATE DATABASE wildlife_tracker_test WITH TEMPLATE wildlife_tracker;
+* CREATE TABLE rangers(id serial PRIMARY KEY, name varchar);
+* CREATE TABLE animals(id serial PRIMARY KEY, name varchar, health varchar, age varchar, type varchar);
+* CREATE TABLE sightings(id serial PRIMARY KEY, animalname varchar, location varchar, timestamp timestamp, rangerid int);
+* CREATE DATABASE wildlife_tracker_test WITH TEMPLATE wildlife_tracker;
 ## Known Bugs
 No bugs
 ## Technologies Used

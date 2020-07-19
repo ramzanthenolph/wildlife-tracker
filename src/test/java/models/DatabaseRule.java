@@ -6,7 +6,7 @@ import org.sql2o.Sql2o;
 
 public class DatabaseRule extends ExternalResource {
     protected void before() {
-        DB.sql2o = new Sql2o("jdbc:postgresql://localhost:5432/wildlife_tracker_test", "ramzan", "myPassword");
+        DB.sql2o = new Sql2o("jdbc:postgresql://localhost:5432/wildlife_tracker_test", "ramzan", "1234");
     }
     protected void after() {
         try(Connection con = DB.sql2o.open()) {
