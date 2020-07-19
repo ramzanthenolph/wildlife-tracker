@@ -16,7 +16,7 @@ public class EndangeredAnimalTest {
     @Test
     public void animal_instantiatesCorrectly_true(){
         EndangeredAnimal endangeredAnimal = newAnimal();
-        assertTrue(endangeredAnimal instanceof EndangeredAnimal);
+        assertEquals(true, endangeredAnimal instanceof EndangeredAnimal);
     }
 
     @Test

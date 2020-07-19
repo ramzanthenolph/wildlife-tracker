@@ -59,11 +59,11 @@ public class RangerTest {
         ranger1.save();
         ranger2.save();
         for(Ranger ranger:Ranger.all()){
-            if (ranger2.equals(ranger)){
+            if (ranger2.equals(ranger1)){
                 ranger2.delete();
                 break;
             }
         }
-        assertEquals(1,Ranger.all().size());
+        assertEquals(0,Ranger.all().size());
     }
 }

@@ -12,7 +12,7 @@
 //index background
 
 .default-jumbotron {
-    background: url('/images/kenya.jpg');
+    background: url('../images/kenya.jpg');
     background-position-y: center;
     background-size: cover;
     background-repeat: none;
@@ -21,7 +21,7 @@
 
 //endangered and regular background
 .animal-jumbotron {
-    background: url('/images/kenya.jpg');
+    background: url('../images/kenya.jpg');
     background-position-y: center;
     background-size: cover;
     background-repeat: none;
@@ -35,7 +35,7 @@
 }
 
 .sighting-jumbotron {
-    background: url('/images/binoculars.jpg');
+    background: url('../images/binoculars.jpg');
     background-position-y: 72%;
     background-size: cover;
     background-repeat: none;
@@ -44,7 +44,7 @@
 
 //success page
 .success-jumbotron {
-    background: url('/images/tree.jpg');
+    background: url('../images/tree.jpg');
     background-position-y: 60%;
     background-size: cover;
     background-repeat: none;
